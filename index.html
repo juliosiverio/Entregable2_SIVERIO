@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Clínica</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Simulador Clínica Odontológica</h1>
+
+    <!-- Formulario de ingreso de datos -->
+    <form id="formCita">
+        <label for="nombre">Nombre del paciente:</label>
+        <input type="text" id="nombre" required><br>
+        
+        <label for="fecha">Fecha de la cita:</label>
+        <input type="date" id="fecha" required><br>
+        
+        <button type="submit">Agendar Cita</button>
+    </form>
+
+    <!-- Mostrar citas agendadas -->
+    <h2>Citas Agendadas</h2>
+    <ul id="listaCitas"></ul>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
